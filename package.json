@@ -1,6 +1,6 @@
 "scripts": {
   "dev": "vite --host 127.0.0.1",
   "start": "vite --host 127.0.0.1",
-  "build": "vite build",
+  "build": "vite build && cp dist/index.html dist/404.html",
   "preview": "vite preview"
 }
